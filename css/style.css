@@ -32,3 +32,49 @@ body {
 {
     margin-bottom: 0;
 }
+
+/* Typography */
+
+html {
+    font-size: 13px;
+}
+
+.cmp 
+{
+    font-family: var(--cmp-f-1);
+    line-height: 1.5;
+    color: var(--cmp-c-DesaturatedDarkBlue);
+}
+
+.cmp h1 
+{
+    font-size: 1.23rem;
+    letter-spacing: 0.0125em;
+    color: var(--cmp-c-VeryDarkGrayishBlue);
+}
+
+
+.cmp__person-name
+{
+    color: var(--cmp-c-VeryDarkGrayishBlue);
+}
+
+.cmp__person-date 
+{
+    color: var(--cmp-c-GrayishBlue);
+}
+
+.cmp__share__text 
+{
+    color: var(--cmp-c-GrayishBlue);
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+@media (min-width:1000px)
+{
+    .cmp h1 
+    {
+        font-size: 1.53rem;
+    }
+}
