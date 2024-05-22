@@ -147,15 +147,16 @@ html {
     background-color: var(--cmp-c-LightGrayishBlue);
 }
 
-.cmp__person-share-btn:hover 
+.cmp__person-share-btn:hover, .cmp.share-active .cmp__person-share-btn
 {
     background-color: var(--cmp-c-DesaturatedDarkBlue);
 }
 
-.cmp__person-share-btn:hover path 
+.cmp__person-share-btn:hover path, .cmp.share-active .cmp__person-share-btn path
 {
     fill: var(--cmp-c-LightGrayishBlue);
 }
+
 
 .cmp__share 
 {
@@ -263,7 +264,7 @@ html {
     .cmp__share--desktop {
         right: -4em;
         bottom:5.5em;
-        display: block;
+        display: flex;
     }
 
     .cmp__share--mobile {
